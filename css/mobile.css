@@ -1,0 +1,229 @@
+* {
+	margin: 0px;
+	padding: 0px;
+/border-style: solid;
+/border-width: 1px;
+}
+body {
+	background-color: #EB6851;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+
+@font-face {
+    font-family: 'proxima_novaextrabold';
+    src: url('../fonts/ProximaNova-Extrabold-webfont.eot');
+    src: url('../fonts/ProximaNova-Extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova-Extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/ProximaNova-Extrabold-webfont.woff') format('woff'),
+         url('../fonts/ProximaNova-Extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/ProximaNova-Extrabold-webfont.svg#proxima_novaextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/ProximaNova-Light-webfont.eot');
+    src: url('../fonts/ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova-Light-webfont.woff2') format('woff2'),
+         url('../fonts/ProximaNova-Light-webfont.woff') format('woff'),
+         url('../fonts/ProximaNova-Light-webfont.ttf') format('truetype'),
+         url('../fonts/ProximaNova-Light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+}
+.icon {
+	margin-top: 100px;
+	text-align: center;
+	clear: both;
+}
+#menu {
+	font-family: "proxima_novalight", sans-serif;
+	float: right;
+	font-size: 12px;
+	line-height: 60px;
+	font-weight: 100;
+	background-color: rgba(255, 255, 255, 0.30);
+	width: 420px;
+	height: 60px;
+    z-index: 10;
+}
+#menu ul {
+	list-style-type: none;
+	display: inline;
+	width: 100%;
+	margin: 0, auto;
+}
+#menu li {
+	display: inline;
+	text-align: center;
+	width: 20%;
+	margin-left: 34px;
+}
+#wrapper {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#welcome {
+	height: 100vh;
+}
+#about {
+	margin-top: 75px;
+}
+#name {
+	font-family: "proxima_novaextrabold", sans-serif;
+	font-size: 51px;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-left: 21%;
+	margin-right: 21%;
+}
+#text {
+    font-weight: 100;
+	line-height: 1.5;
+	margin-left: 21%;
+	margin-right: 21%;
+}
+#avatar {
+	display: inline-block;
+	float: left;
+	padding-right: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+#work {
+	margin-top: 75px;
+	clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#skills {
+	margin-top: 75px;
+}
+#skills ul {
+	font-family: "proxima_novaextrabold", sans-serif;
+	list-style-type: none;
+	font-size: 51px;
+    font-weight: 100;
+	line-height: 1.4em;
+}
+#skills li {
+}
+#gallery {
+}
+.box {
+	width: 240px;
+	height: 240px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.37);
+	margin: 0px;
+	padding: 0px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+img.box { 
+
+}
+
+.bar {
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 56px; 
+    width: 225px;
+    vertical-align: bottom;
+    font-family: "proxima_novalight", sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 100;
+    padding-left: 15px;
+    padding-top: 16px;
+    position: absolute;
+    text-align: left;
+    top: 168px;
+ 
+    z-index: 5;
+}
+
+p.title {
+    font-family: "proxima_novalight", sans-serif;
+	font-size: 19px; 
+    font-weight: 100;
+
+}
+#contact {
+	margin-top: 75px;
+}
+footer {
+    background-color: #4D494E;
+	color: #ffffff;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+    height: 100px;
+}
+
+#footercontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: 
+}
+
+
+h1 {
+	font-family: "proxima_novaextrabold", sans-serif;
+	font-size: 51px;
+    font-weight: 100;
+	
+}
+h2 {
+	font-family: "proxima_novaextrabold", sans-serif;
+	font-size: 83px;
+    font-weight: 100;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-mozs-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+h3 {
+	font-family: "proxima_novaextrabold", sans-serif;
+	font-size: 51px;
+    font-weight: 100;
+	line-height: 1.2;
+}
+
+h4 {
+	font-family: "proxima_novalight", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 1.4;
+
+}
+a:link {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+.clearfix {
+	overflow: auto;
+}
