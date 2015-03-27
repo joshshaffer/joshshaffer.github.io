@@ -155,16 +155,18 @@ p.title {
 
 #contact {
 	margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 footer {
+    font-family: "proxima_novalight", sans-serif;
     background-color: #4D494E;
 	color: #ffffff;
 	font-size: 12px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 10px;
-    height: 100px;
+    height: 60px;
 }
 
 #footercontent {
