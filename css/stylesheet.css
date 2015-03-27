@@ -10,7 +10,6 @@ body {
 	font-size: 12px;
 }
 
-
 @font-face {
     font-family: 'proxima_novaextrabold';
     src: url('../fonts/ProximaNova-Extrabold-webfont.eot');
@@ -38,13 +37,10 @@ body {
 
 }
 
-header {
+#welcome {
+	height: 100vh;
 }
-.icon {
-	margin-top: 100px;
-	text-align: center;
-	clear: both;
-}
+
 #menu {
 	font-family: "proxima_novalight", sans-serif;
 	float: right;
@@ -69,11 +65,14 @@ header {
 	margin-left: 34px;
 }
 #wrapper {
-	padding-left: 10%;
-	padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-#welcome {
-	height: 100vh;
+
+.icon {
+	margin-top: 100px;
+	text-align: center;
+	clear: both;
 }
 #about {
 	margin-top: 75px;
@@ -92,22 +91,6 @@ header {
 	margin-left: 21%;
 	margin-right: 21%;
 }
-#avatar {
-	display: inline-block;
-	float: left;
-	padding-right: 20px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    z-index: 5;
-}
-#work {
-	margin-top: 75px;
-	clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 #skills {
 	margin-top: 75px;
 }
@@ -120,23 +103,24 @@ header {
 }
 #skills li {
 }
+
+#work2 {
+	margin-top: 75px;
+    width: 90%;
+    text-align: center;
+   
+}
 #gallery {
+    
+   
 }
 .box {
-	width: 240px;
+    width: 240px;
 	height: 240px;
+    background-color: aqua;
 	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.37);
-	margin: 0px;
-	padding: 0px;
-    margin-bottom: 1px;
     position: relative;
 }
-
-img.box { 
-
-}
-
 .bar {
     background-color: rgba(0, 0, 0, 0.60);
     height: 56px; 
@@ -154,16 +138,24 @@ img.box {
  
     z-index: 5;
 }
-
 p.title {
     font-family: "proxima_novalight", sans-serif;
 	font-size: 19px; 
     font-weight: 100;
 
 }
+#work {
+	margin-top: 75px;
+	clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 #contact {
 	margin-top: 75px;
 }
+
 footer {
     background-color: #4D494E;
 	color: #ffffff;
@@ -178,14 +170,6 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     background-color: 
-}
-
-
-h1 {
-	font-family: "proxima_novaextrabold", sans-serif;
-	font-size: 51px;
-    font-weight: 100;
-	
 }
 h2 {
 	font-family: "proxima_novaextrabold", sans-serif;
@@ -204,14 +188,6 @@ h3 {
     font-weight: 100;
 	line-height: 1.2;
 }
-
-h4 {
-	font-family: "proxima_novalight", sans-serif;
-	font-size: 20px;
-	font-weight: 100;
-	line-height: 1.4;
-
-}
 a:link {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
@@ -223,7 +199,4 @@ a:hover {
 a:visited {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
-}
-.clearfix {
-	overflow: auto;
 }
