@@ -45,11 +45,12 @@ header {
 	text-align: center;
 	clear: both;
 }
+
 #menu {
 	font-family: "proxima_novalight", sans-serif;
 	float: right;
 	font-size: 12px;
-	line-height: 60px;
+	line-height: 50px;
 	font-weight: 100;
 	background-color: rgba(255, 255, 255, 0.30);
 	width: 320px;
@@ -65,8 +66,8 @@ header {
 #menu li {
 	display: inline;
 	text-align: center;
-    margin-left: 5%;
-
+	width: 20%;
+	margin-left: 5%;
 }
 #wrapper {
     padding-left: 5%;
@@ -86,11 +87,14 @@ header {
 	margin-left: 21%;
 	margin-right: 21%;
 }
+
 #text {
+    font-family: "proxima_novalight", sans-serif;
     font-weight: 100;
 	line-height: 1.5;
 	margin-left: 21%;
 	margin-right: 21%;
+
 }
 #avatar {
 	display: inline-block;
@@ -166,17 +170,16 @@ p.title {
 footer {
     background-color: #4D494E;
 	color: #ffffff;
+    font-family: "proxima_novalight", sans-serif;
 	font-size: 12px;
 	padding-top: 10px;
-	padding-left: 10px;
+	padding-left: 5px;
 	padding-bottom: 10px;
     height: 100px;
 }
 
 #footercontent {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: 
+
 }
 
 
