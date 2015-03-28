@@ -5,7 +5,7 @@
 /border-width: 1px;
 }
 body {
-	background-color: #EB6851;
+	background-color: #ff661b;
 	color: #ffffff;
 	font-size: 12px;
 }
@@ -173,8 +173,9 @@ footer {
     background-color: #4D494E;
 	color: #ffffff;
     font-family: "proxima_novalight", sans-serif;
-	font-size: 12px;
-	padding-top: 10px;
+	font-size: 13px;
+    line-height: 26px;
+	padding-top: 20px;
 	padding-left: 5px;
 	padding-bottom: 10px;
     height: 60px;
@@ -183,7 +184,16 @@ footer {
 #footercontent {
 
 }
+#copy {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
 
+#links {
+    display: inline-block;
+    text-align: center;
+}
 
 h1 {
 	font-family: "proxima_novaextrabold", sans-serif;

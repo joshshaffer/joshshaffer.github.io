@@ -5,7 +5,7 @@
 /border-width: 1px;
 }
 body {
-	background-color: #EB6851;
+	background-color: #ff661b;
 	color: #ffffff;
 	font-size: 12px;
 }
@@ -164,6 +164,7 @@ footer {
     background-color: #4D494E;
 	color: #ffffff;
 	font-size: 12px;
+    line-height: 20px;
 	padding-top: 10px;
 	
 	padding-bottom: 10px;
@@ -175,6 +176,18 @@ footer {
     margin-right: 10%;
     background-color: 
 }
+
+#copy {
+    display: inline-block;
+
+}
+
+
+#links {
+    display: inline-block;
+    float: right;
+}
+
 h2 {
 	font-family: "proxima_novaextrabold", sans-serif;
 	font-size: 83px;
