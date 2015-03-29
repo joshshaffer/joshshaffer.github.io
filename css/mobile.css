@@ -5,7 +5,7 @@
 /border-width: 1px;
 }
 body {
-	background-color: #ff661b;
+	background-color: #EB6851;
 	color: #ffffff;
 	font-size: 12px;
 }
@@ -50,7 +50,7 @@ header {
 	font-family: "proxima_novalight", sans-serif;
 	float: right;
 	font-size: 12px;
-	line-height: 50px;
+	line-height: 60px;
 	font-weight: 100;
 	background-color: rgba(255, 255, 255, 0.30);
 	width: 320px;
@@ -122,7 +122,6 @@ header {
 
 #work {
 	margin-top: 75px;
-    width: 300px;
     text-align: center;
     overflow: hidden;
    
@@ -176,7 +175,6 @@ footer {
 	font-size: 13px;
     line-height: 26px;
 	padding-top: 20px;
-	padding-left: 5px;
 	padding-bottom: 10px;
     height: 60px;
 }
@@ -191,6 +189,7 @@ footer {
 }
 
 #links {
+    float: none;
     display: inline-block;
     text-align: center;
 }
