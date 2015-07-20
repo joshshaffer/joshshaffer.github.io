@@ -394,20 +394,24 @@ header {
     height: auto; }
 
 #abouttext {
-  width: 100%;
-  height: 350px;
+  width: 90%;
+  height: auto;
   font-size: 16px;
   line-height: 1.6em;
-  padding-right: 10px; }
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 50px; }
   #abouttext h5 {
-    font-size: 72;
+    font-size: 40;
     line-height: 1.3em;
     color: #444A56;
-    font-family: 'proxima_novablack'; }
+    font-family: 'proxima_novablack';
+    padding-bottom: 20px; }
 
 #aboutimage {
-  width: 90%;
-  height: auto; }
+  width: 100%;
+  height: auto;
+  padding-left: 10px; }
   #aboutimage img {
     width: 100%;
     height: auto; }
