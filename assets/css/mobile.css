@@ -1,0 +1,540 @@
+@font-face {
+  font-family: 'proxima_novablack';
+  src: url("../fonts/proximanova-black-webfont.eot");
+  src: url("../fonts/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-black-webfont.woff2") format("woff2"), url("../fonts/proximanova-black-webfont.woff") format("woff"), url("../fonts/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/proximanova-black-webfont.svg#proxima_novablack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/roximanova-light-webfont.eot");
+  src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url("../fonts/proximanova-regular-webfont.eot");
+  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #444A56; }
+
+#splash {
+  position: fixed;
+  z-index: -99;
+  background-size: cover;
+  background-color: #91C73D;
+  height: 100vh;
+  width: 100%;
+  color: fff;
+  top: 0;
+  left: 0; }
+
+#intro {
+  width: 92%;
+  padding-left: 8%;
+  padding-top: 40%;
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: 'proxima_novalight'; }
+  #intro span {
+    font-size: 40px;
+    font-family: 'proxima_novablack'; }
+
+#wrapper {
+  margin-top: 100vh; }
+
+header {
+  height: 80px;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+#headerleft {
+  display: inline-block;
+  background-color: #fff;
+  color: #444A56;
+  font-family: 'proxima_novalight';
+  line-height: 1.3em;
+  height: 100%;
+  width: 34%;
+  float: left;
+  text-align: center; }
+  #headerleft h1 {
+    font-size: 9px;
+    display: inline-block; }
+  #headerleft a {
+    color: #444A56;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out; }
+  #headerleft a:link {
+    color: #444A56;
+    text-decoration: none; }
+  #headerleft a:hover {
+    color: #91C73D;
+    text-decoration: none; }
+  #headerleft a:visted {
+    color: #444A56;
+    text-decoration: none; }
+
+#headerleftchild {
+  text-align: left;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 9px; }
+
+#headerright {
+  background-color: #444A56;
+  color: #fff;
+  font-family: 'proxima_novalight';
+  display: inline-block;
+  height: 100%;
+  width: 66%;
+  vertical-align: middle;
+  line-height: 80px;
+  padding: 0;
+  margin: 0; }
+  #headerright ul {
+    list-style: none;
+    float: right;
+    width: 100%; }
+  #headerright li {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    text-align: center; }
+  #headerright a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out; }
+  #headerright a:link {
+    color: #fff;
+    text-decoration: none; }
+  #headerright a:hover {
+    color: #91C73D;
+    text-decoration: none; }
+  #headerright a:visted {
+    color: #fff;
+    text-decoration: none; }
+
+#spotlight {
+  width: 100%;
+  height: 33.33%;
+  display: block;
+  background-color: #dedede;
+  background-image: url(../images/savages_spotlight.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  overflow: hidden; }
+
+#overlay {
+  background: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  position: relative;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease; }
+
+#spotlight:hover #overlay {
+  opacity: 1; }
+
+.artbox {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/avangers_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox2 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/type_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox2 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox2:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox3 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/euripides_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox3 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox3:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox4 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/employed_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox4 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox4:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox5 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/corps_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox5 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox5:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox6 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/popcorn_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox6 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox6:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox7 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/batman_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox7 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox7:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+.artbox8 {
+  width: 100%;
+  height: 33.33%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/ludic_spotlight.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .artbox8 img {
+    width: 100%;
+    height: auto;
+    position: relative; }
+
+.artbox8:hover #overlay {
+  position: relative;
+  opacity: 1; }
+
+#text {
+  font-family: 'proxima_novalight';
+  font-weight: 100;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -mozs-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+#bottomrow {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  font-size: 0; }
+
+#workbox {
+  padding-top: 78px; }
+
+#navleft {
+  float: left;
+  width: 60px;
+  height: 250px;
+  padding-top: 10vw;
+  margin-right: 10px;
+  display: none; }
+
+#navright {
+  float: right;
+  width: 60px;
+  height: 250px;
+  padding-top: 10vw;
+  margin-left: 10px;
+  display: none; }
+
+.navbox {
+  width: 60px;
+  height: 60px;
+  background-color: #91C73D;
+  position: relative; }
+  .navbox img {
+    padding-top: 14px;
+    padding-left: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+  .navbox img:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.arrowbox {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -mozs-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+#worktext {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  line-height: 1.6em;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  display: block; }
+  #worktext h3 {
+    font-size: 32px;
+    font-family: 'proxima_novablack';
+    line-height: 36px;
+    color: #444A56; }
+  #worktext h4 {
+    font-size: 18px;
+    font-family: 'proxima_novalight';
+    font-weight: 100;
+    padding-bottom: 30px;
+    color: #808080; }
+
+#workimage {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: none; }
+  #workimage img {
+    width: 100%;
+    height: auto; }
+
+#abouttext {
+  width: 100%;
+  height: 350px;
+  font-size: 16px;
+  line-height: 1.6em;
+  padding-right: 10px; }
+  #abouttext h5 {
+    font-size: 72;
+    line-height: 1.3em;
+    color: #444A56;
+    font-family: 'proxima_novablack'; }
+
+#aboutimage {
+  width: 90%;
+  height: auto; }
+  #aboutimage img {
+    width: 100%;
+    height: auto; }
+
+#workwrapper {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.projecttext {
+  margin-top: 78px;
+  clear: both;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  line-height: 1.6em;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  display: block; }
+  .projecttext h3 {
+    font-size: 32px;
+    font-family: 'proxima_novablack';
+    line-height: 36px;
+    color: #444A56; }
+  .projecttext h4 {
+    font-size: 18px;
+    font-family: 'proxima_novalight';
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: #808080; }
+
+.projectart {
+  margin-top: 115px;
+  width: 100%;
+  height: auto;
+  display: block;
+  float: none; }
+  .projectart img {
+    width: 100%;
+    height: auto; }
+
+#mobilenavleft {
+  float: left;
+  width: 100px;
+  height: 60px;
+  margin-top: 78px;
+  margin-right: 10px;
+  display: inline-block; }
+
+#mobilenavright {
+  float: right;
+  width: 100px;
+  height: 60px;
+  margin-top: 78px;
+  margin-left: 10px;
+  display: inline-block; }
+
+.mobilenavboxleft {
+  width: 100px;
+  height: 60px;
+  background-color: #91C73D;
+  position: relative; }
+  .mobilenavboxleft img {
+    padding-top: 14px;
+    padding-left: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+  .mobilenavboxleft img:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.mobilenavboxright {
+  width: 100px;
+  height: 60px;
+  background-color: #91C73D;
+  position: relative; }
+  .mobilenavboxright img {
+    padding-top: 14px;
+    padding-left: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+  .mobilenavboxright img:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.mobilearrowbox {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -mozs-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
+footer {
+  height: 75px;
+  clear: both;
+  background-color: fff;
+  padding-top: 50px; }
+
+#copy {
+  color: #B3B3B3;
+  font-size: 10px;
+  font-family: 'proxima_novalight';
+  padding-right: 7%;
+  padding-top: 20px;
+  height: 40px; }
+
+#social {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: #fff; }
+
+#socialtwitter {
+  width: 38px;
+  height: 38px;
+  display: block;
+  background: url("../images/social_twitter.svg") center top no-repeat; }
+
+#socialtwitter:hover {
+  background: url("../images/social_twitter_hover.svg") center top no-repeat; }
