@@ -453,7 +453,7 @@ header {
 
 #mobilenavleft {
   float: left;
-  width: 100px;
+  width: 60px;
   height: 60px;
   margin-top: 78px;
   margin-right: 10px;
@@ -461,14 +461,14 @@ header {
 
 #mobilenavright {
   float: right;
-  width: 100px;
+  width: 60px;
   height: 60px;
   margin-top: 78px;
   margin-left: 10px;
   display: inline-block; }
 
 .mobilenavboxleft {
-  width: 100px;
+  width: 60px;
   height: 60px;
   background-color: #91C73D;
   position: relative; }
@@ -483,7 +483,7 @@ header {
             transform: scale(1.2); }
 
 .mobilenavboxright {
-  width: 100px;
+  width: 60px;
   height: 60px;
   background-color: #91C73D;
   position: relative; }

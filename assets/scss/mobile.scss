@@ -576,11 +576,12 @@ img:hover {
 
 
 #abouttext {
-    width: 100%;
+    width: 90%;
     height: 350px;
     font-size: 16px;
     line-height: 1.6em;
-    padding-right: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
 
 h5 {
     font-size: 72;
@@ -593,6 +594,10 @@ h5 {
 #aboutimage {
     width: 90%;
     height: auto;
+    padding-top: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    float: none;
     
     img {
     width: 100%;
@@ -655,7 +660,7 @@ h5 {
 }
 #mobilenavleft {
     float: left;
-    width: 100px;
+    width: 60px;
     height: 60px;
     margin-top: 78px;
     margin-right: 10px;
@@ -666,7 +671,7 @@ h5 {
 
 #mobilenavright{
     float: right;
-    width: 100px;
+    width: 60px;
     height: 60px;
     margin-top: 78px;
     margin-left: 10px;
@@ -676,7 +681,7 @@ h5 {
 }
 
 .mobilenavboxleft {
-    width: 100px;
+    width: 60px;
     height: 60px;
     background-color: $primary_color;
     position: relative;
@@ -696,7 +701,7 @@ img:hover {
 }
 
 .mobilenavboxright {
-    width: 100px;
+    width: 60px;
     height: 60px;
     background-color: $primary_color;
     position: relative;
@@ -738,34 +743,41 @@ footer {
     clear: both;
     background-color: fff;
     padding-top: 50px;
+    padding-bottom: 50px;
 
 
 }
 #copy {
     color: #B3B3B3;
     font-size: 10px;
+    clear: both;
     font-family: 'proxima_novalight';
-    padding-right: 7%;
+    display: inline;
+    text-align: center;
+    width: 100%;
+    padding-right: 0;
     padding-top: 20px;
     height: 40px;
 
 }
 #social {
-
+    float: none;
     height: 100%;
     width: 100%;
     padding: 0;
-    margin: 0 auto;
-    display: block;
+
+    display: inline;
     text-align: center;
     background-color: #fff;
     
 }
 
 #socialtwitter {
+    clear: both;
     width: 38px;
     height: 38px;
     display:block;
+    margin: 0 auto;
     background: url('../images/social_twitter.svg')center top no-repeat;
 }
 
