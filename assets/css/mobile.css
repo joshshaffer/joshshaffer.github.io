@@ -395,13 +395,15 @@ header {
 
 #abouttext {
   width: 90%;
-  height: 350px;
+  height: auto;
   font-size: 16px;
   line-height: 1.6em;
   padding-right: 5%;
-  padding-left: 5%; }
+  padding-left: 5%;
+  display: block;
+  padding-bottom: 40px; }
   #abouttext h5 {
-    font-size: 72;
+    font-size: 40;
     line-height: 1.3em;
     color: #444A56;
     font-family: 'proxima_novablack'; }
@@ -409,10 +411,11 @@ header {
 #aboutimage {
   width: 90%;
   height: auto;
-  padding-top: 5%;
+  padding-top: 30px;
   padding-right: 5%;
   margin: 0 auto;
-  float: none; }
+  float: none;
+  display: block; }
   #aboutimage img {
     width: 100%;
     height: auto; }
