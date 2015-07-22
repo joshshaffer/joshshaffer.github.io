@@ -58,7 +58,8 @@ $secondary_type: #fff;
 }
 
 body {
- color: $primary_type;
+    color: $primary_type;
+    font-family: 'proxima_nova_rgregular';
 
 }
 
@@ -89,6 +90,7 @@ body {
 
 #wrapper {
     margin-top:100vh;
+    background-color: #000;
 }
 
 

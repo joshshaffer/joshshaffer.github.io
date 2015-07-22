@@ -49,7 +49,8 @@ body {
     font-family: 'proxima_novablack'; }
 
 #wrapper {
-  margin-top: 100vh; }
+  margin-top: 100vh;
+  background-color: #000; }
 
 header {
   height: 80px;
@@ -396,7 +397,7 @@ header {
 #abouttext {
   width: 90%;
   height: auto;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6em;
   padding-right: 5%;
   padding-left: 5%;
@@ -406,12 +407,13 @@ header {
     font-size: 40;
     line-height: 1.3em;
     color: #444A56;
-    font-family: 'proxima_novablack'; }
+    font-family: 'proxima_novablack';
+    padding-bottom: 40px; }
 
 #aboutimage {
   width: 90%;
   height: auto;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-right: 5%;
   margin: 0 auto;
   float: none;

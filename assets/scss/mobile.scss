@@ -90,6 +90,7 @@ body {
 
 #wrapper {
     margin-top:100vh;
+    background-color: #000;
 }
 
 
@@ -578,7 +579,7 @@ img:hover {
 #abouttext {
     width: 90%;
     height: auto;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6em;
     padding-right: 5%;
     padding-left: 5%;
@@ -590,13 +591,14 @@ h5 {
     line-height: 1.3em;
     color: $primary_type;
     font-family: 'proxima_novablack';
+    padding-bottom: 40px;
 }
 }
 
 #aboutimage {
     width: 90%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-right: 5%;
     margin: 0 auto;
     float: none;

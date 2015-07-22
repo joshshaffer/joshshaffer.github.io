@@ -25,7 +25,8 @@
   font-size: 12px; }
 
 body {
-  color: #444A56; }
+  color: #444A56;
+  font-family: 'proxima_nova_rgregular'; }
 
 #splash {
   position: fixed;
@@ -49,7 +50,8 @@ body {
     font-family: 'proxima_novablack'; }
 
 #wrapper {
-  margin-top: 100vh; }
+  margin-top: 100vh;
+  background-color: #000; }
 
 header {
   height: 115px;
