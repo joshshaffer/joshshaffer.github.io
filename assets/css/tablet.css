@@ -452,6 +452,13 @@ header {
     width: 100%;
     height: auto; }
 
+.expandart {
+  display: block; }
+  .expandart img {
+    float: left;
+    width: 33.3%;
+    height: auto; }
+
 #mobilenavleft {
   float: left;
   width: 60px;

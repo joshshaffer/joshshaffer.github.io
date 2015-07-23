@@ -651,7 +651,16 @@ h5 {
     
 }
 
+.expandart {
+    display: block;
+    
+    img {
+    float: left;
+    width: 33.3%;
+    height: auto;
+    }
 
+}
 
 footer {
     height: 75px;
@@ -687,5 +696,6 @@ footer {
 }
 
 #socialtwitter:hover {
-   background: url('../images/social_twitter_hover.svg')center top no-repeat;
+    background: url('../images/social_twitter_hover.svg')center top no-repeat;
+    transition: color .2s ease-in-out;
 }

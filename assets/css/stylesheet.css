@@ -450,6 +450,13 @@ header {
     width: 100%;
     height: auto; }
 
+.expandart {
+  display: block; }
+  .expandart img {
+    float: left;
+    width: 33.3%;
+    height: auto; }
+
 footer {
   height: 75px;
   clear: both;
@@ -478,4 +485,6 @@ footer {
   background: url("../images/social_twitter.svg") center top no-repeat; }
 
 #socialtwitter:hover {
-  background: url("../images/social_twitter_hover.svg") center top no-repeat; }
+  background: url("../images/social_twitter_hover.svg") center top no-repeat;
+  -webkit-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out; }

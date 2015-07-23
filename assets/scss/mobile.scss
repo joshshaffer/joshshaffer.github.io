@@ -663,6 +663,19 @@ h5 {
     }
     
 }
+
+.expandart {
+    display: block;
+    
+    img {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    }
+
+}
+
 #mobilenavleft {
     float: left;
     width: 60px;
