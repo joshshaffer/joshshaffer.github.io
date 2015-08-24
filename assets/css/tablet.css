@@ -399,7 +399,9 @@ header {
   height: 350px;
   font-size: 12px;
   line-height: 1.6em;
-  padding-right: 10px; }
+  padding-right: 10px;
+  margin-left: 7%;
+  margin-right: 7%; }
   #abouttext h5 {
     font-size: 72;
     line-height: 1.3em;
