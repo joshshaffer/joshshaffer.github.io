@@ -402,7 +402,8 @@ header {
   padding-right: 5%;
   padding-left: 5%;
   display: block;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  margin: 0px; }
   #abouttext h5 {
     font-size: 40;
     line-height: 1.3em;
