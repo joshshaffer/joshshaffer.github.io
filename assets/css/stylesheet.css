@@ -478,6 +478,12 @@ footer {
   padding-left: 8%;
   display: inline-block; }
 
+#social2 {
+  float: left;
+  height: 100%;
+  padding-left: 10px;
+  display: inline-block; }
+
 #socialtwitter {
   width: 38px;
   height: 38px;
@@ -486,5 +492,18 @@ footer {
 
 #socialtwitter:hover {
   background: url("../images/social_twitter_hover.svg") center top no-repeat;
+  -webkit-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out; }
+
+#socialbehance {
+  clear: both;
+  width: 38px;
+  height: 38px;
+  display: block;
+  margin: 0 auto;
+  background: url("../images/social_behance.svg") center top no-repeat; }
+
+#socialbehance:hover {
+  background: url("../images/social_behance_hover.svg") center top no-repeat;
   -webkit-transition: color 0.2s ease-in-out;
           transition: color 0.2s ease-in-out; }
