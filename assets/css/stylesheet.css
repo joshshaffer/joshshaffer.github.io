@@ -71,17 +71,19 @@ header {
   text-align: center; }
   #headerleft h1 {
     font-size: 12px;
-    display: inline-block;
-    -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out; }
+    display: inline-block; }
   #headerleft a {
+    display: block;
     color: #444A56;
     text-decoration: none;
-    -webkit-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out; }
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
   #headerleft a:hover {
     color: #91C73D;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
   #headerleft a:visted {
     color: #444A56;
     text-decoration: none; }
@@ -141,8 +143,9 @@ header {
   position: relative;
   height: 100%;
   opacity: 0;
-  -webkit-transition: opacity 0.25s ease;
-  -moz-transition: opacity 0.25s ease; }
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out; }
 
 #spotlight:hover #overlay {
   opacity: 1; }

@@ -119,17 +119,17 @@ height: 115px;
     
     }
         a {
+        display: block;
         color: $primary_type;
         text-decoration: none;
-        transition: color .2s ease-in-out;
+        transition: all .3s ease-in-out;
+        
     }
-    a:link {
-        color: $primary_type;
-        text-decoration: none;
-    }
+
         a:hover {
         color: $primary_color;
         text-decoration: none;
+            transform: scale(1.2);
 
     
     }
@@ -215,8 +215,9 @@ height: 115px;
     position: relative;
     height: 100%;
     opacity:0;
-    -webkit-transition: opacity .25s ease;
-    -moz-transition: opacity .25s ease;
+    transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
 }
 
 #spotlight:hover #overlay {

@@ -116,20 +116,22 @@ height: 115px;
         
         font-size: 12px;
         display: inline-block;
-        transition: all .2s ease-in-out;
+        
 
     
     }
         a {
+        display: block;
         color: $primary_type;
         text-decoration: none;
-        transition: all .2s ease-in-out;
+        transition: all .3s ease-in-out;
         
     }
 
         a:hover {
         color: $primary_color;
         text-decoration: none;
+            transform: scale(1.1);
 
     
     }
@@ -202,7 +204,7 @@ height: 115px;
     background-image: url(../images/savages_spotlight.jpg);
     background-size: cover;
     overflow: hidden;  
-    
+
 }
 
 
@@ -215,8 +217,9 @@ height: 115px;
     position: relative;
     height: 100%;
     opacity:0;
-    -webkit-transition: opacity .25s ease;
-    -moz-transition: opacity .25s ease;
+    transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
 }
 
 #spotlight:hover #overlay {
@@ -234,6 +237,11 @@ height: 115px;
     background-size: cover;
     overflow: hidden;
     position: relative;
+ 
+
+    
+
+    
     
 img {
     width: 100%;
@@ -245,10 +253,10 @@ img {
 
 
 
-
 .artbox:hover #overlay {
     position: relative;
     opacity:1;
+
 }
 
 
@@ -706,4 +714,8 @@ a:hover .socialhover {
      -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 
+}
+
+#namegrow {
+    
 }

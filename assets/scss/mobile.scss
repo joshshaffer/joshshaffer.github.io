@@ -120,17 +120,17 @@ height: 80px;
     
     }
         a {
+        display: block;
         color: $primary_type;
         text-decoration: none;
-        transition: color .2s ease-in-out;
+        transition: all .3s ease-in-out;
+        
     }
-    a:link {
-        color: $primary_type;
-        text-decoration: none;
-    }
+
         a:hover {
         color: $primary_color;
         text-decoration: none;
+            transform: scale(1.2);
 
     
     }
@@ -206,6 +206,7 @@ height: 80px;
     background-size: cover;
     -webkit-background-size:cover;
     overflow: hidden;  
+    scale: (1.3);
     
 }
 
