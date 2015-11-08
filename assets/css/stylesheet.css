@@ -37,7 +37,8 @@ body {
   width: 100%;
   color: fff;
   top: 0;
-  left: 0; }
+  left: 0;
+  padding-bottom: -50px; }
 
 #intro {
   padding-left: 8%;
@@ -494,3 +495,21 @@ a:hover .socialhover {
   fill: #91C73D;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
+
+#arrow {
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  -mozs-transform: translate(-50%, -10%);
+  -webkit-transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+      transform: translate(-50%, -10%); }
+
+#arrowcenter {
+  display: block;
+  margin: auto; }
+
+#bottomarrow {
+  height: 50px; }
