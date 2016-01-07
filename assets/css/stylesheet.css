@@ -291,7 +291,7 @@ header {
   display: inline-block;
   margin: 0;
   padding: 0;
-  background-image: url(../images/daily_spotlight.png);
+  background-image: url(../images/infograph_spotlight.png);
   background-size: cover;
   overflow: hidden;
   position: relative; }
@@ -445,7 +445,7 @@ header {
     color: #444A56; }
 
 .projectart {
-  margin-top: 115px;
+  margin-top: 78px;
   float: right;
   width: 60%;
   height: auto;
