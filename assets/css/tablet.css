@@ -382,6 +382,7 @@ header {
     line-height: 36px;
     color: #D1D3D4; }
   #worktext h4 {
+    text-transform: uppercase;
     font-size: 18px;
     font-family: 'proxima_nova_rgregular';
     font-weight: 100;
@@ -442,6 +443,7 @@ header {
     line-height: 36px;
     color: #444A56; }
   .projecttext h4 {
+    text-transform: uppercase;
     font-size: 18px;
     font-family: 'proxima_nova_rgregular';
     font-weight: 100;
