@@ -60,6 +60,7 @@ $secondary_type: #fff;
 body {
     color: $primary_type;
     font-family: 'proxima_nova_rgregular';
+    text-rendering: optimizeLegibility;
 
 }
 

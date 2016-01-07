@@ -24,7 +24,9 @@
   padding: 0; }
 
 body {
-  color: #444A56; }
+  color: #444A56;
+  font-family: 'proxima_nova_rgregular';
+  text-rendering: optimizeLegibility; }
 
 #splash {
   position: fixed;
@@ -62,7 +64,7 @@ header {
   display: inline-block;
   background-color: #fff;
   color: #444A56;
-  font-family: 'proxima_novalight';
+  font-family: 'proxima_nova_rgregular';
   line-height: 1.3em;
   height: 100%;
   width: 34%;
@@ -96,7 +98,7 @@ header {
 #headerright {
   background-color: #444A56;
   color: #fff;
-  font-family: 'proxima_novalight';
+  font-family: 'proxima_nova_rgregular';
   display: inline-block;
   height: 100%;
   width: 66%;
@@ -378,13 +380,13 @@ header {
     font-size: 32px;
     font-family: 'proxima_novablack';
     line-height: 36px;
-    color: #444A56; }
+    color: #D1D3D4; }
   #worktext h4 {
     font-size: 18px;
-    font-family: 'proxima_novalight';
+    font-family: 'proxima_nova_rgregular';
     font-weight: 100;
     padding-bottom: 30px;
-    color: #808080; }
+    color: #444A56; }
 
 #workimage {
   width: 100%;
@@ -408,7 +410,7 @@ header {
   #abouttext h5 {
     font-size: 40;
     line-height: 1.3em;
-    color: #444A56;
+    color: #D1D3D4;
     font-family: 'proxima_novablack';
     padding-bottom: 40px; }
 
@@ -447,10 +449,10 @@ header {
     color: #444A56; }
   .projecttext h4 {
     font-size: 18px;
-    font-family: 'proxima_novalight';
+    font-family: 'proxima_nova_rgregular';
     font-weight: 100;
     padding-bottom: 10px;
-    color: #808080; }
+    color: #444A56; }
 
 .projectart {
   margin-top: 115px;
