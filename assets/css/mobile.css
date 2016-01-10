@@ -32,7 +32,7 @@ body {
   position: fixed;
   z-index: -99;
   background-size: cover;
-  background-color: #91C73D;
+  background-color: #8A7360;
   height: 100vh;
   width: 100%;
   color: fff;
@@ -80,11 +80,12 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out; }
   #headerleft a:hover {
-    color: #91C73D;
+    color: #8A7360;
     text-decoration: none;
-    -webkit-transform: scale(1.2);
+    /*-webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
-            transform: scale(1.2); }
+            transform: scale(1.2); */
+          }
   #headerleft a:visted {
     color: #444A56;
     text-decoration: none; }
@@ -124,7 +125,7 @@ header {
     color: #fff;
     text-decoration: none; }
   #headerright a:hover {
-    color: #91C73D;
+    color: #D1D3D4;
     text-decoration: none; }
   #headerright a:visted {
     color: #fff;
@@ -345,7 +346,7 @@ header {
 .navbox {
   width: 60px;
   height: 60px;
-  background-color: #91C73D;
+  background-color: #D1D3D4;
   position: relative; }
   .navbox img {
     padding-top: 14px;
@@ -378,7 +379,7 @@ header {
   display: block; }
   #worktext h3 {
     font-size: 32px;
-    font-family: 'proxima_novablack';
+    font-family: 'proxima_nova_rgregular';
     line-height: 36px;
     color: #D1D3D4; }
   #worktext h4 {
@@ -412,7 +413,7 @@ header {
     font-size: 40;
     line-height: 1.3em;
     color: #D1D3D4;
-    font-family: 'proxima_novablack';
+    font-family: 'proxima_nova_rgregular';
     padding-bottom: 40px; }
 
 #aboutimage {
@@ -445,7 +446,7 @@ header {
   display: block; }
   .projecttext h3 {
     font-size: 32px;
-    font-family: 'proxima_novablack';
+    font-family: 'proxima_nova_rgregular';
     line-height: 36px;
     color: #444A56; }
   .projecttext h4 {
@@ -493,7 +494,7 @@ header {
 .mobilenavboxleft {
   width: 60px;
   height: 60px;
-  background-color: #91C73D;
+  background-color: #D1D3D4;
   position: relative; }
   .mobilenavboxleft img {
     padding-top: 14px;
@@ -508,7 +509,7 @@ header {
 .mobilenavboxright {
   width: 60px;
   height: 60px;
-  background-color: #91C73D;
+  background-color: #D1D3D4;
   position: relative; }
   .mobilenavboxright img {
     padding-top: 14px;
