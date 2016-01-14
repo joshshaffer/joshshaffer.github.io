@@ -33,7 +33,7 @@ body {
   position: fixed;
   z-index: -99;
   background-size: cover;
-  background-color: #8A7360;
+  background-color: #00A5DB;
   height: 100vh;
   width: 100%;
   color: fff;
@@ -80,7 +80,7 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out; }
   #headerleft a:hover {
-    color: #8A7360;
+    color: #00A5DB;
     text-decoration: none;
     /*-webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
@@ -124,7 +124,7 @@ header {
     color: #fff;
     text-decoration: none; }
   #headerright a:hover {
-    color: #D1D3D4;
+    color: #00A5DB;
     text-decoration: none; }
   #headerright a:visted {
     color: #fff;
@@ -543,6 +543,7 @@ footer {
 #social {
   float: left;
   height: 100%;
+  width: 42px;
   padding-left: 8%;
   display: inline-block; }
 
@@ -558,5 +559,6 @@ footer {
 #social2 {
   float: left;
   height: 100%;
+  width: 42px;
   padding-left: 10px;
   display: inline-block; }
