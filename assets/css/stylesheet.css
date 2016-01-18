@@ -414,6 +414,15 @@ header {
     color: #D1D3D4;
     padding-bottom: 15px;
     font-family: 'proxima_nova_rgregular'; }
+    #abouttext span {
+      font-family: 'proxima_novablack';
+      font-size:90px;
+      line-height: 1em;
+      display: block;
+      font-weight: 400;
+      padding-bottom: 20px;
+      color: #00A5DB;
+    }
 
 #aboutimage {
   float: left;
