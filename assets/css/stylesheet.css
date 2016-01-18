@@ -394,6 +394,7 @@ header {
 #workimage {
   float: right;
   width: 60%;
+  /*padding-top: 100px;*/
   height: auto;
   display: inline-block; }
   #workimage img {
