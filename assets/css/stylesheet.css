@@ -348,7 +348,7 @@ header {
   width: 60px;
   height: 60px;
   background-color: #D1D3D4;
-  position: relative; }
+  position: fixed; }
   .navbox img {
     padding-top: 14px;
     padding-left: 13px;
