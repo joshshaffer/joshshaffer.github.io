@@ -92,12 +92,12 @@ header {
 
 #headerleftchild {
   text-align: left;
-  width: 100%;
+  width: 100%
   margin-left: 15%;
   margin-top: 6px; }
 
 #headerright {
-  background-color: #444A56;
+  background-color: #ffffff;
   color: #fff;
   font-family: 'proxima_nova_rgregular';
   display: inline-block;
@@ -117,18 +117,18 @@ header {
     float: right;
     text-align: center; }
   #headerright a {
-    color: #fff;
+    color: #444A56;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in-out;
             transition: color 0.2s ease-in-out; }
   #headerright a:link {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
   #headerright a:hover {
     color: #00A5DB;
     text-decoration: none; }
   #headerright a:visted {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
 
 #spotlight {
@@ -415,6 +415,15 @@ header {
     color: #D1D3D4;
     font-family: 'proxima_nova_rgregular';
     padding-bottom: 40px; }
+    #abouttext span {
+      font-family: 'proxima_novablack';
+      font-size:60px;
+      line-height: 1em;
+      display: block;
+      font-weight: 400;
+      padding-bottom: 20px;
+      color: #00A5DB;
+    }
 
 #aboutimage {
   width: 90%;

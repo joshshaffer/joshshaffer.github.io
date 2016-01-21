@@ -97,7 +97,7 @@ header {
   margin-top: 26px; }
 
 #headerright {
-  background-color: #444A56;
+  background-color: #ffffff;
   color: #fff;
   font-family: 'proxima_nova_rgregular';
   display: inline-block;
@@ -116,18 +116,18 @@ header {
     width: 32%;
     float: right; }
   #headerright a {
-    color: #fff;
+    color: #444A56;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in-out;
             transition: color 0.2s ease-in-out; }
   #headerright a:link {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
   #headerright a:hover {
     color: #00A5DB;
     text-decoration: none; }
   #headerright a:visted {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
 
 #spotlight {

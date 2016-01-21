@@ -98,7 +98,7 @@ header {
   margin-top: 26px; }
 
 #headerright {
-  background-color: #444A56;
+  background-color: #ffffff;
   color: #fff;
   font-family: 'proxima_nova_rgregular';
   display: inline-block;
@@ -116,18 +116,18 @@ header {
     width: 32%;
     float: right; }
   #headerright a {
-    color: #fff;
+    color: #444A56;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in-out;
             transition: color 0.2s ease-in-out; }
   #headerright a:link {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
   #headerright a:hover {
     color: #00A5DB;
     text-decoration: none; }
   #headerright a:visted {
-    color: #fff;
+    color: #444A56;
     text-decoration: none; }
 
 #spotlight {
@@ -316,7 +316,6 @@ header {
   left: 50%;
   -mozs-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
 #bottomrow {
@@ -356,7 +355,6 @@ header {
             transition: all 0.3s ease-in-out; }
   .navbox img:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2); }
 
 .arrowbox {
@@ -367,7 +365,6 @@ header {
   left: 50%;
   -mozs-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
 #worktext {
@@ -390,6 +387,11 @@ header {
     font-weight: 100;
     padding-bottom: 30px;
     color: #444A56; }
+#worktext p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.7em;
+}
 
 #workimage {
   float: right;
@@ -524,7 +526,6 @@ a:hover .socialhover {
   display: block;
   -mozs-transform: translate(-50%, -10%);
   -webkit-transform: translate(-50%, -10%);
-  -ms-transform: translate(-50%, -10%);
       transform: translate(-50%, -10%); }
 
 #arrowcenter {
