@@ -327,6 +327,12 @@ header {
 #workbox {
   padding-top: 78px; }
 
+#workbox:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
 #navleft {
   float: left;
   width: 60px;
@@ -405,8 +411,8 @@ header {
 
 #abouttext {
   float: left;
-  width: 40%;
-  height: 350px;
+  width: 460px;
+  /*height: 350px;*/
   font-size: 16px;
   line-height: 1.7em;
   padding-right: 15%; }
@@ -428,10 +434,11 @@ header {
 
 #aboutimage {
   float: left;
+  margin-top: 20px;
   width: 29%;
   height: auto; }
   #aboutimage img {
-    width: 100%;
+    width: 400px;
     height: auto; }
 
 #workwrapper {

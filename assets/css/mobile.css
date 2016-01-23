@@ -326,6 +326,12 @@ header {
 
 #workbox {
   padding-top: 78px; }
+  #workbox:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+  }
+
 
 #navleft {
   float: left;
