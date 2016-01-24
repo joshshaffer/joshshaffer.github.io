@@ -572,7 +572,7 @@ footer {
   width: 50%;
   padding: 0;
   display: inline;
-  text-align: center;
+  text-align: right;
   background-color: #fff; }
 
 #socialtwitter {
@@ -593,7 +593,7 @@ footer {
   width: 50%;
   padding: 0;
   display: inline;
-  text-align: center;
+  text-align: left;
   background-color: #fff; }
 
 #socialbehance {
