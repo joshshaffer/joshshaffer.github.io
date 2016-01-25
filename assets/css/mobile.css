@@ -92,7 +92,7 @@ header {
 
 #headerleftchild {
   text-align: left;
-  width: 100%
+  width: 100%;
   margin-left: 15%;
   margin-top: 6px; }
 
@@ -315,7 +315,6 @@ header {
   left: 50%;
   -mozs-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
 #bottomrow {
@@ -361,7 +360,6 @@ header {
             transition: all 0.3s ease-in-out; }
   .navbox img:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2); }
 
 .arrowbox {
@@ -372,7 +370,6 @@ header {
   left: 50%;
   -mozs-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
 #worktext {
@@ -518,7 +515,6 @@ header {
             transition: all 0.3s ease-in-out; }
   .mobilenavboxleft img:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2); }
 
 .mobilenavboxright {
@@ -533,7 +529,6 @@ header {
             transition: all 0.3s ease-in-out; }
   .mobilenavboxright img:hover {
     -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
             transform: scale(1.2); }
 
 .mobilearrowbox {
@@ -544,7 +539,6 @@ header {
   left: 50%;
   -mozs-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
 footer {
