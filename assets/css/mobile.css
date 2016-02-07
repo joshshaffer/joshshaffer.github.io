@@ -26,7 +26,8 @@
 body {
   color: #444A56;
   font-family: 'proxima_nova_rgregular';
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  font-size: 16px;}
 
 #splash {
   position: fixed;
@@ -375,7 +376,7 @@ header {
 #worktext {
   width: 100%;
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6em;
   padding-right: 5px;
   padding-bottom: 50px;
@@ -405,7 +406,7 @@ header {
 #abouttext {
   width: 90%;
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7em;
   padding-right: 5%;
   padding-left: 5%;
@@ -451,7 +452,7 @@ header {
   clear: both;
   width: 100%;
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7em;
   padding-right: 5%;
   padding-bottom: 50px;
