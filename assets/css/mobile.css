@@ -137,7 +137,7 @@ header {
   height: 50vw;
   display: block;
   background-color: #dedede;
-  background-image: url(../images/savages_spotlight.jpg);
+  background-image: url(../images/myvoice_spotlight.png);
   background-size: cover;
   -webkit-background-size: cover;
   overflow: hidden; }
@@ -160,7 +160,7 @@ header {
   display: inline-block;
   margin: 0;
   padding: 0;
-  background-image: url(../images/avangers_spotlight.jpg);
+  background-image: url(../images/savages_spotlight.jpg);
   background-size: cover;
   overflow: hidden;
   position: relative; }
@@ -274,7 +274,7 @@ header {
   display: inline-block;
   margin: 0;
   padding: 0;
-  background-image: url(../images/myvoice_spotlight.png);
+  background-image: url(../images/comic_spotlight.jpg);
   background-size: cover;
   overflow: hidden;
   position: relative; }
@@ -305,6 +305,20 @@ header {
 .artbox8:hover #overlay {
   position: relative;
   opacity: 1; }
+
+
+
+  #text_spotlight {
+    font-family: 'proxima_novalight';
+    font-weight: 100;
+    color: white;
+    font-size: 47px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -mozs-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
 
 #text {
   font-family: 'proxima_novalight';
