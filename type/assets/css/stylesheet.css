@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+.ScrollSceneIndicators { z-index: 99999 !important; }
+
 .cf:after {
  content:"";
  display:table;
@@ -152,14 +154,20 @@ p{
   padding: 15px;*/
 }
 
-.letters{
+
+#trigger1{
+
+}
+
+#letters{
   color: #91C73D;
   font-family: 'Rufina', serif;
   line-height: 1.1em;
   font-size: 322px;
   position: absolute;
   bottom: 0;
-  left: -50px;
+  margin-left: -1000px;
+  left: -500px;
   z-index: -100;
 }
 
@@ -297,7 +305,8 @@ p{
   z-index: 10;
   height: 100px;
   width: auto;
-  transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
 }
 
 .redbox2{
@@ -407,4 +416,32 @@ p{
   right: 7vw;
   height: 30px;
   width: auto;
+}
+
+.line{
+  width: 100%;
+  border-bottom: solid 1px #ffffff;
+
+}
+#trigger2 {
+  position: absolute;
+  top: 1400px;
+}
+#car {
+  position: absolute;
+  z-index: -5;
+    top: 1980;
+  right: -200px;
+}
+
+#trigger3{
+  position: absolute;
+  top: 2200px;
+}
+
+#train{
+  position: absolute;
+  z-index: -6;
+  left: -800px;
+  top: 2498px;
 }
