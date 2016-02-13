@@ -2,6 +2,15 @@
 
 $(function() {
 
+
+  $('.top').click(function(){
+    $('body').animate({scrollTop: 0}, 600);
+});
+
+
+
+
+
   // Init ScrollMagic Controller
   var controller = new ScrollMagic.Controller();
 
@@ -61,6 +70,8 @@ $(function() {
   .addTo(controller);
 
   //  scene.addIndicators();
+
+
 
 
 });
