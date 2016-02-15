@@ -94,7 +94,7 @@ header {
   text-align: left;
   width: 100px;
   margin: 0 auto;
-  margin-top: 26px; }
+  margin-top: 20px; }
 
 #headerright {
   background-color: #ffffff;
@@ -174,14 +174,14 @@ header {
 
 .artbox2 {
   width: 33.33vw;
-  height: 17vw;
+  height: 17.1vw;
   display: inline-block;
   margin: 0;
   padding: 0;
   background-image: url(../images/ludic_spotlight.jpg);
   background-size: cover;
   overflow: hidden;
-  position: relative; }
+  position: relative;}
   .artbox2 img {
     width: 100%;
     height: auto;
