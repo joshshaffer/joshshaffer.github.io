@@ -22,12 +22,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 body {
   color: #444A56;
   font-family: 'proxima_nova_rgregular';
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 #splash {
   position: fixed;
@@ -163,7 +165,8 @@ header {
   background-image: url(../images/savages_spotlight.jpg);
   background-size: cover;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+ }
   .artbox img {
     width: 100%;
     height: auto;
@@ -560,3 +563,10 @@ a:hover .socialhover {
 
 #bottomarrow {
   height: 50px; }
+
+  a{
+    float: left;
+  }
+  .gallery-wrapper{
+    width: 100vw;
+  }
