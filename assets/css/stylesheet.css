@@ -564,9 +564,9 @@ a:hover .socialhover {
 #bottomarrow {
   height: 50px; }
 
-  a{
+  /*a{
     float: left;
-  }
+  }*/
   .gallery-wrapper{
     width: 100vw;
   }
