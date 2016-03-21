@@ -580,3 +580,12 @@ a:hover .socialhover {
  background: #00A5DB;
  color: #ffffff;
 }
+a {
+  color: #00A5DB;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+a:hover{
+  text-decoration: underline;
+}
