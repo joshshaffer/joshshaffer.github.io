@@ -1,3 +1,6 @@
+$(document).ready(function(){
+
+
 var tabs = $('.tabs');
 
 $('.category').hide();
@@ -19,3 +22,6 @@ tabs.find('a').on('click', function(e){
   });
 
 }).first().click();
+
+
+});
