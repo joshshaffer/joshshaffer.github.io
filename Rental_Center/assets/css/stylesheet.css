@@ -136,7 +136,7 @@ header{}
 .submenu li:nth-child(1){
   font-family: 'ralewaybold', sans-serif;
   line-height: 1.5em;
-  font-size: 24px;
+  font-size: 20px;
   color: #425563;
 }
 .submenu li:nth-child(3){
