@@ -191,7 +191,8 @@ color: #63B1BC;
 .tabs a{
   color: #ffffff;
   float: left;
-  height: 65px;
+  height: 55px;
+  font-size: 12px;
   width: 112.5px;
   background: #63B1BC;
   text-align: center;
