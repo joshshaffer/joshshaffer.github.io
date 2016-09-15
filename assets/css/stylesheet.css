@@ -1,591 +1,706 @@
 @font-face {
-  font-family: 'proxima_novablack';
-  src: url("../fonts/proximanova-black-webfont.eot");
-  src: url("../fonts/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-black-webfont.woff2") format("woff2"), url("../fonts/proximanova-black-webfont.woff") format("woff"), url("../fonts/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/proximanova-black-webfont.svg#proxima_novablack") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'proxima_novablack';
+    src: url("../fonts/proximanova-black-webfont.eot");
+    src: url("../fonts/proximanova-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-black-webfont.woff2") format("woff2"), url("../fonts/proximanova-black-webfont.woff") format("woff"), url("../fonts/proximanova-black-webfont.ttf") format("truetype"), url("../fonts/proximanova-black-webfont.svg#proxima_novablack") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
-  font-family: 'proxima_novalight';
-  src: url("../fonts/roximanova-light-webfont.eot");
-  src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'proxima_novalight';
+    src: url("../fonts/roximanova-light-webfont.eot");
+    src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
-  font-family: 'proxima_nova_rgregular';
-  src: url("../fonts/proximanova-regular-webfont.eot");
-  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'proxima_nova_rgregular';
+    src: url("../fonts/proximanova-regular-webfont.eot");
+    src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
 
 body {
-  color: #444A56;
-  font-family: 'proxima_nova_rgregular';
-  text-rendering: optimizeLegibility;
+    color: #444A56;
+    font-family: 'proxima_nova_rgregular';
+    text-rendering: optimizeLegibility;
 }
 
 #splash {
-  position: fixed;
-  z-index: -99;
-  background-size: cover;
-  background-color: #00A5DB;
-  height: 100vh;
-  width: 100%;
-  color: fff;
-  top: 0;
-  left: 0;
-  padding-bottom: -50px; }
+    position: fixed;
+    z-index: -99;
+    background-size: cover;
+    background-color: #00A5DB;
+    height: 100vh;
+    width: 100%;
+    color: fff;
+    top: 0;
+    left: 0;
+    padding-bottom: -50px;
+}
 
 #intro {
-  padding-left: 8%;
-  padding-top: 8%;
-  font-size: 72;
-  line-height: 1.2;
-  font-family: 'proxima_novalight'; }
-  #intro span {
+    padding-left: 8%;
+    padding-top: 8%;
+    font-size: 72;
+    line-height: 1.2;
+    font-family: 'proxima_novalight';
+}
+
+#intro span {
     font-size: 72px;
-    font-family: 'proxima_novablack'; }
+    font-family: 'proxima_novablack';
+}
 
 #wrapper {
-  margin-top: 100vh;
-  background-color: #000; }
+    margin-top: 100vh;
+    background-color: #000;
+}
 
 header {
-  height: 115px;
-  width: 100%;
-  padding: 0;
-  margin: 0; }
+    height: 115px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 #headerleft {
-  display: inline-block;
-  background-color: #fff;
-  color: #444A56;
-  font-family: 'proxima_nova_rgregular';
-  line-height: 1.3em;
-  height: 100%;
-  width: 25%;
-  float: left;
-  text-align: center; }
-  #headerleft h1 {
+    display: inline-block;
+    background-color: #fff;
+    color: #444A56;
+    font-family: 'proxima_nova_rgregular';
+    line-height: 1.3em;
+    height: 100%;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#headerleft h1 {
     font-size: 12px;
-    display: inline-block; }
-  #headerleft a {
+    display: inline-block;
+}
+
+#headerleft a {
     display: block;
     color: #444A56;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out; }
-  #headerleft a:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+#headerleft a:hover {
     color: #00A5DB;
     text-decoration: none;
     /*-webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1); */
-          }
-  #headerleft a:visted {
+}
+
+#headerleft a:visted {
     color: #444A56;
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 #headerleftchild {
-  text-align: left;
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 20px; }
+    text-align: left;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
 
 #headerright {
-  background-color: #ffffff;
-  color: #fff;
-  font-family: 'proxima_nova_rgregular';
-  display: inline-block;
-  height: 100%;
-  width: 75%;
-  vertical-align: middle;
-  line-height: 115px;
-  margin: 0; }
-  #headerright ul {
+    background-color: #ffffff;
+    color: #fff;
+    font-family: 'proxima_nova_rgregular';
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    vertical-align: middle;
+    line-height: 115px;
+    margin: 0;
+}
+
+#headerright ul {
     list-style: none;
     float: right;
-    width: 44.5%; }
-  #headerright li {
+    width: 44.5%;
+}
+
+#headerright li {
     display: inline-block;
     width: 32%;
-    float: right; }
-  #headerright a {
+    float: right;
+}
+
+#headerright a {
     color: #444A56;
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in-out;
-            transition: color 0.2s ease-in-out; }
-  #headerright a:link {
+    transition: color 0.2s ease-in-out;
+}
+
+#headerright a:link {
     color: #444A56;
-    text-decoration: none; }
-  #headerright a:hover {
+    text-decoration: none;
+}
+
+#headerright a:hover {
     color: #00A5DB;
-    text-decoration: none; }
-  #headerright a:visted {
+    text-decoration: none;
+}
+
+#headerright a:visted {
     color: #444A56;
-    text-decoration: none; }
+    text-decoration: none;
+}
 
 #spotlight {
-  width: 66.66vw;
-  height: 34vw;
-  float: left;
-  display: inline-block;
-  background-color: #dedede;
-  background-image: url(../images/myvoice_spotlight.png);
-  background-size: cover;
-  overflow: hidden;
+    width: 66.66vw;
+    height: 34vw;
+    float: left;
+    display: inline-block;
+    background-color: #dedede;
+    background-image: url(../images/myvoice_spotlight.png);
+    background-size: cover;
+    overflow: hidden;
 }
 
 #overlay {
-  background: rgba(0, 0, 0, 0.85);
-  text-align: center;
-  position: relative;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out; }
+    background: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    position: relative;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+}
 
 #spotlight:hover #overlay {
-  opacity: 1; }
+    opacity: 1;
+}
 
 .artbox {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/savages_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
- }
-  .artbox img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/savages_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox2 {
-  width: 33.33vw;
-  height: 17.1vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/ludic_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox2 img {
+    width: 33.33vw;
+    height: 17.1vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/ludic_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox2 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox2:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox3 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/euripides_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox3 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/euripides_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox3 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox3:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox4 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/employed_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox4 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/employed_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox4 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox4:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox5 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/corps_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox5 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/corps_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox5 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox5:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox6 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/batman_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox6 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/batman_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox6 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox6:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox7 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/comic_spotlight.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox7 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/comic_spotlight.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox7 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox7:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 .artbox8 {
-  width: 33.33vw;
-  height: 17vw;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-image: url(../images/infograph_spotlight.png);
-  background-size: cover;
-  overflow: hidden;
-  position: relative; }
-  .artbox8 img {
+    width: 33.33vw;
+    height: 17vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/infograph_spotlight.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.artbox8 img {
     width: 100%;
     height: auto;
-    position: relative; }
+    position: relative;
+}
 
 .artbox8:hover #overlay {
-  position: relative;
-  opacity: 1; }
+    position: relative;
+    opacity: 1;
+}
 
 #text {
-  font-family: 'proxima_novalight';
-  font-weight: 100;
-  color: white;
-  font-size: 18px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -mozs-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
+    font-family: 'proxima_novalight';
+    font-weight: 100;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -mozs-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
-
-      #text_spotlight {
-        font-family: 'proxima_novalight';
-        font-weight: 100;
-        color: white;
-        font-size: 47px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -mozs-transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
-
+#text_spotlight {
+    font-family: 'proxima_novalight';
+    font-weight: 100;
+    color: white;
+    font-size: 47px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -mozs-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 #bottomrow {
-  margin: 0;
-  padding: 0;
-  clear: both;
-  font-size: 0; }
+    margin: 0;
+    padding: 0;
+    clear: both;
+    font-size: 0;
+}
 
 #workbox {
-  padding-top: 78px; }
+    padding-top: 78px;
+}
 
 #workbox:after {
-  content: "";
-  width: 100%;
-  display: inline-block;
+    content: "";
+    width: 100%;
+    display: inline-block;
 }
 
 #navleft {
-  float: left;
-  width: 60px;
-  height: 250px;
-  padding-top: 10vw;
-  margin-right: 3%;
-  display: inline-block; }
+    float: left;
+    width: 60px;
+    height: 250px;
+    padding-top: 10vw;
+    margin-right: 3%;
+    display: inline-block;
+}
 
 #navright {
-  float: right;
-  width: 60px;
-  height: 250px;
-  padding-top: 10vw;
-  margin-left: 2%;
-  display: inline-block; }
+    float: right;
+    width: 60px;
+    height: 250px;
+    padding-top: 10vw;
+    margin-left: 2%;
+    display: inline-block;
+}
 
 .navbox {
-  width: 60px;
-  height: 60px;
-  background-color: #D1D3D4;
-  position: fixed;
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out; }
-  .navbox img {
+    width: 60px;
+    height: 60px;
+    background-color: #D1D3D4;
+    position: fixed;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbox img {
     padding-top: 14px;
     padding-left: 13px;
     -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out; }
-  .navbox img:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbox img:hover {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2); }
-.navbox:hover{
-  background-color: #00A5DB;
+    transform: scale(1.2);
+}
+
+.navbox:hover {
+    background-color: #00A5DB;
 }
 
 .arrowbox {
-  height: 32px;
-  width: 32px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -mozs-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -mozs-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 #worktext {
-  float: left;
-  width: 35%;
-  height: auto;
-  font-size: 16px;
-  line-height: 1.7em;
-  padding-right: 5%;
-  display: inline-block; }
-  #worktext h3 {
+    float: left;
+    width: 35%;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.7em;
+    padding-right: 5%;
+    display: inline-block;
+}
+
+#worktext h3 {
     font-size: 32px;
     font-family: 'proxima_nova_rgregular';
     line-height: 36px;
     color: #D1D3D4;
-  padding-bottom: 10px;}
-  #worktext h4 {
+    padding-bottom: 10px;
+}
+
+#worktext h4 {
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'proxima_nova_rgregular';
     font-weight: 100;
     padding-bottom: 30px;
-    color: #444A56; }
+    color: #444A56;
+}
+
 #worktext p {
-  padding-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.7em;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.7em;
 }
 
 #workimage {
-  float: right;
-  width: 60%;
-  /*padding-top: 100px;*/
-  height: auto;
-  display: inline-block; }
-  #workimage img {
+    float: right;
+    width: 60%;
+    /*padding-top: 100px;*/
+    height: auto;
+    display: inline-block;
+}
+
+#workimage img {
     width: 100%;
-    height: auto; }
+    height: auto;
+}
 
 #abouttext {
-  float: left;
-  width: 460px;
-  /*height: 350px;*/
-  font-size: 16px;
-  line-height: 1.7em;
-  padding-right: 15%; }
-  #abouttext h5 {
+    float: left;
+    width: 460px;
+    /*height: 350px;*/
+    font-size: 16px;
+    line-height: 1.7em;
+    padding-right: 15%;
+}
+
+#abouttext h5 {
     font-size: 36;
     line-height: 1.3em;
     color: #D1D3D4;
     padding-bottom: 15px;
-    font-family: 'proxima_nova_rgregular'; }
-    #abouttext span {
-      font-family: 'proxima_novablack';
-      font-size:90px;
-      line-height: 1em;
-      display: block;
-      font-weight: 400;
-      padding-bottom: 20px;
-      color: #00A5DB;
-    }
+    font-family: 'proxima_nova_rgregular';
+}
+
+#abouttext span {
+    font-family: 'proxima_novablack';
+    font-size: 90px;
+    line-height: 1em;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #00A5DB;
+}
 
 #aboutimage {
-  float: left;
-  margin-top: 20px;
-  width: 29%;
-  height: auto; }
-  #aboutimage img {
+    float: left;
+    margin-top: 20px;
+    width: 29%;
+    height: auto;
+}
+
+#aboutimage img {
     width: 400px;
-    height: auto; }
+    height: auto;
+}
 
 #workwrapper {
-  float: left;
-  width: 84%; }
+    float: left;
+    width: 84%;
+}
 
 .projecttext {
-  margin-top: 78px;
-  clear: both;
-  float: left;
-  width: 35%;
-  height: auto;
-  font-size: 16px;
-  line-height: 1.6em;
-  padding-right: 5%;
-  display: inline-block; }
-  .projecttext h3 {
+    margin-top: 78px;
+    clear: both;
+    float: left;
+    width: 35%;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.6em;
+    padding-right: 5%;
+    display: inline-block;
+}
+
+.projecttext h3 {
     font-size: 32px;
     font-family: 'proxima_novablack';
     line-height: 36px;
-    color: #444A56; }
-  .projecttext h4 {
+    color: #444A56;
+}
+
+.projecttext h4 {
     text-transform: uppercase;
     font-size: 18px;
     font-family: 'proxima_nova_rgregular';
     font-weight: 100;
     padding-bottom: 10px;
-    color: #444A56; }
+    color: #444A56;
+}
 
 .projectart {
-  margin-top: 78px;
-  float: right;
-  width: 60%;
-  height: auto;
-  display: inline-block; }
-  .projectart img {
+    margin-top: 78px;
+    float: right;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+}
+
+.projectart img {
     width: 100%;
-    height: auto; }
+    height: auto;
+}
 
 .expandart {
-  display: block; }
-  .expandart img {
+    display: block;
+}
+
+.expandart img {
     float: left;
     width: 33.3%;
-    height: auto; }
+    height: auto;
+}
 
 footer {
-  height: 75px;
-  clear: both;
-  background-color: fff;
-  padding-top: 50px; }
+    height: 75px;
+    clear: both;
+    background-color: fff;
+    padding-top: 50px;
+}
 
 #copy {
-  color: #B3B3B3;
-  font-size: 10px;
-  font-family: 'proxima_novalight';
-  float: right;
-  padding-right: 7%;
-  padding-top: 28px;
-  height: 47px; }
+    color: #B3B3B3;
+    font-size: 10px;
+    font-family: 'proxima_novalight';
+    float: right;
+    padding-right: 7%;
+    padding-top: 28px;
+    height: 47px;
+}
 
 #social {
-  float: left;
-  height: 100%;
-  width: 42px;
-  padding-left: 8%;
-  display: inline-block; }
+    float: left;
+    height: 100%;
+    width: 42px;
+    padding-left: 8%;
+    display: inline-block;
+}
 
 #social2 {
-  float: left;
-  height: 100%;
-  width: 42px;
-  padding-left: 10px;
-  display: inline-block; }
+    float: left;
+    height: 100%;
+    width: 42px;
+    padding-left: 10px;
+    display: inline-block;
+}
 
 a .socialhover {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
 a:hover .socialhover {
-  fill: #00A5DB;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-
-
+    fill: #00A5DB;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
 #arrow {
-  position: absolute;
-  clear: both;
-  bottom: 0;
-  left: 50%;
-  display: block;
-  -mozs-transform: translate(-50%, -10%);
-  -webkit-transform: translate(-50%, -10%);
-      transform: translate(-50%, -10%); }
+    position: absolute;
+    clear: both;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    -mozs-transform: translate(-50%, -10%);
+    -webkit-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+}
 
 #arrowcenter {
-  display: block;
-  margin: auto; }
+    display: block;
+    margin: auto;
+}
 
 #bottomarrow {
-  height: 50px; }
+    height: 50px;
+}
 
-  /*a{
+
+/*a{
     float: left;
   }*/
-  .gallery-wrapper{
-    width: 100vw;
-  }
 
-  ::selection {
- background: #00A5DB;
- color: #ffffff;
+.gallery-wrapper {
+    width: 100vw;
 }
+
+ ::selection {
+    background: #00A5DB;
+    color: #ffffff;
+}
+
 ::-moz-selection {
- background: #00A5DB;
- color: #ffffff;
+    background: #00A5DB;
+    color: #ffffff;
 }
+
 a {
-  color: #00A5DB;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; 
+    color: #00A5DB;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-a:hover{
-  text-decoration: underline;
+
+a:hover {
+    text-decoration: underline;
 }
