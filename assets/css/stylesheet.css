@@ -437,7 +437,7 @@ header {
 .navbox {
     width: 60px;
     height: 60px;
-    background-color: #D1D3D4;
+    background-color: #00A5DB;
     position: fixed;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -456,7 +456,8 @@ header {
 }
 
 .navbox:hover {
-    background-color: #00A5DB;
+
+    background-color: #D1D3D4;
 }
 
 .arrowbox {
@@ -474,7 +475,7 @@ header {
     float: left;
     width: 35%;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7em;
     padding-right: 5%;
     display: inline-block;
@@ -484,7 +485,7 @@ header {
     font-size: 32px;
     font-family: 'proxima_nova_rgregular';
     line-height: 36px;
-    color: #D1D3D4;
+    color: #00A5DB;
     padding-bottom: 10px;
 }
 
@@ -499,7 +500,7 @@ header {
 
 #worktext p {
     padding-bottom: 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7em;
 }
 
@@ -520,7 +521,7 @@ header {
     float: left;
     width: 460px;
     /*height: 350px;*/
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7em;
     padding-right: 15%;
 }
@@ -566,7 +567,7 @@ header {
     float: left;
     width: 35%;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
     padding-right: 5%;
     display: inline-block;
