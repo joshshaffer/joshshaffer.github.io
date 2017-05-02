@@ -84,8 +84,10 @@ main p {
     position: absolute;
     top: 170px;
     left: -26px;
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
+    -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    -ms-transform-origin: left top 0;
+        transform-origin: left top 0;
 }
 
 .menu {
@@ -93,8 +95,10 @@ main p {
     position: absolute;
     top: 195px;
     right: -26px;
-    transform: rotate(90deg);
-    transform-origin: right top 0;
+    -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    -ms-transform-origin: right top 0;
+        transform-origin: right top 0;
 }
 
 .menu li {
@@ -114,7 +118,8 @@ margin-top: 10px;
 }
 
 .socialbadge {
-    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
     width: 40px;
     height: auto;
     animation: rotateback .4s ease-in-out;
@@ -141,6 +146,15 @@ margin-top: 10px;
     100% {
         -webkit-transform: rotate(0deg) scale(1.2);
     }
+    0% {
+        transform: rotate(90deg) scale(1);
+    }
+    50% {
+        transform: rotate(-30deg) scale(1.4);
+    }
+    100% {
+        transform: rotate(0deg) scale(1.2);
+    }
 }
 
 @keyframes rotateback {
@@ -152,6 +166,15 @@ margin-top: 10px;
     }
     100% {
         -webkit-transform: rotate(90deg) scale(1);
+    }
+    0% {
+        transform: rotate(0deg) scale(1.2);
+    }
+    50% {
+        transform: rotate(-30deg) scale(1.4);
+    }
+    100% {
+        transform: rotate(90deg) scale(1);
     }
 }
 
