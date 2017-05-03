@@ -308,12 +308,15 @@ footer {
 a {
     color: #808080;
     text-decoration: none;
+
 }
 
 a:visited {}
 
 a:hover {
     color: #ff7a00;
+    animation: pulseout .4s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
 }
 
 
@@ -324,5 +327,25 @@ a:hover {
 @media(max-width: 550px) {
     .fix {
         margin-top: 10px;
+    }
+}
+@keyframes pulseout {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1.02);
+    }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.02);
     }
 }
