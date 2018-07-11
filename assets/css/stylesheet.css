@@ -117,6 +117,10 @@ body {
   text-decoration: none;
 }
 
+.links ul li a:hover {
+  color: #FF0000;
+}
+
 .work {
   list-style: none;
 }
@@ -135,7 +139,7 @@ body {
   color: white;
   text-align: left;
   background: rgb(56, 108, 209);
-  padding: 1em;
+  padding: 1em 1em 1.5em 1em;
   border-radius: 2px;
   top: -6vw;
   left: -4vw;
@@ -168,7 +172,8 @@ body {
 
 @media(max-width: 600px) {
   .work li img {
-    margin-top: 18vw;
+    margin-top: 20vw;
+    margin-bottom: 16vw;
   }
 }
 
