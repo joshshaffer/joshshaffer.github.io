@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: 'serif', "essonnes-display";
+  font-weight: 400;
+  text-rendering: geometricPrecision;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.left {
+  width: 40vw;
+  padding: 3vw 13vw 3vw 6vw;
+  background: #FF0000;
+  color: white;
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.left p{
+  font-size: 4.3vw;
+  line-height: 1.1em;
+  font-weight: 700;
+  padding-bottom: 14vw;
+}
+
+.left p:last-child {
+  font-size: 3vw;
+  line-height: 1.3em;
+  font-weight: 500;
+  padding-bottom: 14vw;
+}
+
+.abstract{
+  width: 12vw;
+  margin-left: 10vw;
+  padding-bottom: 14vw;
+}
+
+.right {
+  width: 60vw;
+  padding: 3vw 3vw 3vw 10vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.links ul {
+  text-align: right;
+  height: 12vw;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.links ul li a {
+  color: #4D4D4D;
+  line-height: 1.3em;
+  text-decoration: none;
+}
+
+.work {
+  list-style: none;
+}
+.work{
+  color: #4D4D4D;
+}
+
+.work li {
+  position: relative;
+  text-align: right;
+}
+
+.work li div {
+  position: absolute;
+  color: white;
+  text-align: left;
+  background: rgb(56, 108, 209);
+  padding: 1em;
+  border-radius: 2px;
+  top: -6vw;
+  left: -4vw;
+  max-width: 18vw;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.work li div h3{
+  font-weight: 500;
+  position: relative;
+}
+
+.work li div p{
+  padding-left: .5em;
+}
+
+.work li img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10vw;
+}
+
+h1 {
+  padding-top: 5vw;
+  font-size: 2vw;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+h2 {
+  line-height: 1.4em;
+  font-size: 2vw;
+  padding-bottom: 11vw;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-style: italic;
+}
