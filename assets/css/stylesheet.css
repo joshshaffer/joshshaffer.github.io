@@ -14,11 +14,23 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media(max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+
 .left {
   width: 40vw;
   padding: 3vw 13vw 3vw 6vw;
   background: #FF0000;
   color: white;
+}
+
+@media(max-width: 600px) {
+  .left {
+    width: 100vw;
+  }
 }
 
 .left a {
@@ -27,11 +39,17 @@ body {
   font-weight: 600;
 }
 
-.left p{
+.left p {
   font-size: 4.3vw;
   line-height: 1.1em;
   font-weight: 700;
   padding-bottom: 14vw;
+}
+
+@media(max-width: 600px) {
+  .left p {
+    font-size: 16vw;
+  }
 }
 
 .left p:last-child {
@@ -39,12 +57,26 @@ body {
   line-height: 1.3em;
   font-weight: 500;
   padding-bottom: 14vw;
+  display: block;
 }
 
-.abstract{
+@media(max-width: 600px) {
+  .left p:last-child {
+    display: none;
+  }
+}
+
+.abstract {
   width: 12vw;
   margin-left: 10vw;
   padding-bottom: 14vw;
+  display: block;
+}
+
+@media(max-width: 600px) {
+  .abstract {
+    display: none;
+  }
 }
 
 .right {
@@ -52,10 +84,23 @@ body {
   padding: 3vw 3vw 3vw 10vw;
 }
 
+@media(max-width: 600px) {
+  .right {
+    width: 100vw;
+    padding: 3vw 3vw 3vw 3vw;
+  }
+}
+
 .links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+@media(max-width: 600px) {
+  .links {
+    margin-bottom: 60px;
+  }
 }
 
 .links ul {
@@ -75,7 +120,8 @@ body {
 .work {
   list-style: none;
 }
-.work{
+
+.work {
   color: #4D4D4D;
 }
 
@@ -99,12 +145,18 @@ body {
   -moz-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
-.work li div h3{
+@media(max-width: 600px) {
+  .work li div {
+    max-width: 60vw;
+  }
+}
+
+.work li div h3 {
   font-weight: 500;
   position: relative;
 }
 
-.work li div p{
+.work li div p {
   padding-left: .5em;
 }
 
@@ -114,11 +166,23 @@ body {
   margin-bottom: 10vw;
 }
 
+@media(max-width: 600px) {
+  .work li img {
+    margin-top: 18vw;
+  }
+}
+
 h1 {
   padding-top: 5vw;
   font-size: 2vw;
   font-weight: 400;
   font-variant: small-caps;
+}
+
+@media(max-width: 600px) {
+  h1 {
+    font-size: 8vw;
+  }
 }
 
 h2 {
@@ -128,4 +192,11 @@ h2 {
   font-weight: 400;
   font-variant: small-caps;
   font-style: italic;
+}
+
+@media(max-width: 600px) {
+  h2 {
+    font-size: 8vw;
+    line-height: 1.1em;
+  }
 }
