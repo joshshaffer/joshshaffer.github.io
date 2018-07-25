@@ -167,13 +167,23 @@ body {
 .work li img {
   width: 100%;
   height: auto;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
+}
+
+.first-image{
+  margin-top: 2vw;
+}
+.work li .last-image{
+  margin-bottom: 13vw;
 }
 
 @media(max-width: 600px) {
   .work li img {
-    margin-top: 20vw;
-    margin-bottom: 16vw;
+    margin-top: 0vw;
+    margin-bottom: 7vw;
+  }
+  .work li .first-image{
+    margin-top: 26vw;
   }
 }
 
