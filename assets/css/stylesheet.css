@@ -326,6 +326,10 @@ section {
     border-bottom: #FE2A29 2px solid;
 }
 
+.column-right > .small_image{
+    width: 300px;
+    height: auto;
+}
 
 .mobile-menu {
     display: flex;
