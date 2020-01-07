@@ -131,7 +131,10 @@ section {
     width: 100%;
     margin: 0 auto;
     /* background: #cccccc;  */
+    text-align: right;
 }
+
+
 
 @media(max-width:930px) {
     .work-wrapper {
@@ -156,6 +159,12 @@ section {
 .work-column-wrapper {
     display: flex;
     flex-direction: row;
+}
+
+@media(min-width:600px){
+.work-wrapper .smaller_image{
+    width: 80%;
+}
 }
 
 .column-left {
@@ -201,6 +210,7 @@ section {
 .intro-text-wrapper {
     position: relative;
     margin-top: 57vh;
+    text-align: left;
 }
 
 @media(max-width: 600px) {
