@@ -17,7 +17,7 @@ h1 {
     font-size: 5.5vw;
     line-height: 1.1em;
     font-weight: 700;
-    color: #FE2A29;
+    color: #353535;
 }
 
 @media(min-width:1500px) {
@@ -49,7 +49,7 @@ h3 {
     font-size: 38px;
     line-height: 1em;
     font-weight: 700;
-    color: #FE2A29;
+    color: #353535;
     margin-bottom: 16px;
 }
 
@@ -57,7 +57,7 @@ p {}
 
 a {
     text-decoration: none;
-    color: #FE2A29;
+    color: #353535;
 }
 
 
@@ -82,7 +82,7 @@ section {
     position: absolute;
     top: 46vh;
     left: 12vw;
-    color: #FE2A29;
+    color: #353535;
 }
 
 .name::before {
@@ -101,6 +101,11 @@ section {
     right: 0;
     bottom: 33vh;
 }
+
+/* .work-link:hover{
+    color: white;
+    background: #353535
+} */
 
 .social-media {
     position: absolute;
@@ -384,6 +389,7 @@ section {
 
 .selected {
     position: relative;
+    color: #FE2A29;
 }
 
 .selected::before {
