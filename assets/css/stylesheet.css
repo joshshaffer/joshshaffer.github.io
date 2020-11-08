@@ -17,7 +17,7 @@ h1 {
     font-size: 5.5vw;
     line-height: 1.1em;
     font-weight: 700;
-    color: #353535;
+    color: black;
 }
 
 @media(min-width:1500px) {
@@ -42,7 +42,7 @@ h2 {
     font-size: 38px;
     line-height: 1em;
     font-weight: 700;
-    color: #353535;
+    color: black;
 }
 
 h3 {
@@ -60,6 +60,12 @@ a {
     color: #353535;
 }
 
+a:hover {
+    display: inline;
+    color: white;
+    background: black;
+    /* padding: 0 .5em; */
+}
 
 section {
     width: 90vw;
@@ -100,6 +106,7 @@ section {
     position: absolute;
     right: 0;
     bottom: 33vh;
+    padding: 0 0.5em;
 }
 
 /* .work-link:hover{
@@ -111,6 +118,10 @@ section {
     position: absolute;
     right: 0;
     bottom: 5vw;
+}
+
+.social-media a {
+    padding: 0 0.5em;
 }
 
 .sticky-menu {
@@ -137,6 +148,10 @@ section {
     text-align: right;
     right: 0;
     top: 57vh;
+}
+
+.home-link a {
+    padding: 0 0.5em;
 }
 
 .work-wrapper {
@@ -227,7 +242,7 @@ section {
 
 .column-right p {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 @media(max-width:930px) {
@@ -262,7 +277,7 @@ section {
 
 .intro-text-wrapper h1 {
     position: absolute;
-    top: -15vw;
+    top: -9vw;
     left: 0;
 }
 
@@ -281,7 +296,17 @@ section {
 .intro-text-wrapper .discriptor {
     position: absolute;
     text-align: right;
-    color: #666666;
+    color: white;
+    background: black;
+    padding: 0 .5em;
+}
+
+.copy_wrapper .discriptor {
+    position: absolute;
+    text-align: right;
+    color: white;
+    background: black;
+    padding: 0 .5em;
 }
 
 @media(max-width:930px) {
@@ -296,7 +321,10 @@ section {
     margin-left: 50%;
     margin-bottom: 50px;
     margin-top: 60px;
+    text-align: left;
+    position: relative;
 }
+
 @media(max-width:930px) {
     .copy_wrapper {
         width: 100%;
@@ -307,7 +335,7 @@ section {
 }
 
 
-.copy_wrapper p{}
+.copy_wrapper p {}
 
 .innovate-within {
     top: 0;
@@ -329,6 +357,20 @@ section {
     left: -256px;
 }
 
+.print {
+    top: 0;
+    left: -142px;
+}
+
+.indentity {
+    top: 0;
+    left: -164px;
+}
+
+.web {
+    top: 0;
+    left: -166px;
+}
 
 .photo {
     top: 0;
@@ -337,7 +379,7 @@ section {
 
 .illustration {
     top: 0;
-    left: -174px;
+    left: -180px;
 }
 
 @media(max-width:930px) {
@@ -352,7 +394,7 @@ section {
 }
 
 
-.intro-text-wrapper .discriptor span {
+.discriptor span {
     font-weight: 700;
 }
 
@@ -370,6 +412,10 @@ section {
     white-space: nowrap;
 }
 
+.social-media-fixed li a {
+    padding: 0 0.5em;
+}
+
 .social-media li {
     text-align: right;
     line-height: 1.6em;
@@ -380,19 +426,28 @@ section {
     position: relative;
     /* left: 0; */
     margin-top: 57vh;
+    display: table-caption;
 }
 
 .work-menu li {
     line-height: 1.6em;
+
+    display: inline;
     /* white-space: nowrap; */
+}
+
+.work-menu li a {
+    padding: 0 .5em;
 }
 
 .selected {
     position: relative;
-    color: #FE2A29;
+    color: white;
+    background: black;
+    padding: 0 .5em;
 }
 
-.selected::before {
+/* .selected::before {
     position: absolute;
     bottom: 10px;
     left: -42px;
@@ -400,7 +455,7 @@ section {
     width: 30px;
     height: 2px;
     border-bottom: #FE2A29 2px solid;
-}
+} */
 
 .column-right>.small_image {
     width: 300px;
