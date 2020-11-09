@@ -283,13 +283,13 @@ section {
 
 @media(max-width:930px) {
     .intro-text-wrapper h1 {
-        top: -20vw;
+        top: -12vw;
     }
 }
 
 @media(max-width: 600px) {
     .intro-text-wrapper h1 {
-        top: -43vw;
+        top: -22vw;
     }
 }
 
@@ -332,6 +332,10 @@ section {
         margin-bottom: 50px;
         margin-top: 60px;
     }
+    .copy_wrapper .discriptor {
+        position: relative;
+    }
+
 }
 
 
@@ -384,12 +388,14 @@ section {
 
 @media(max-width:930px) {
 
-    .innovate-within,
-    .anthem,
-    .ball-state,
-    .lahody,
+    .print,
+    .indentity,
+    .web,
+    .photo,
     .illustration {
         left: 0;
+        display: inline;
+
     }
 }
 
@@ -469,8 +475,15 @@ section {
     margin-bottom: 60px;
 }
 
+.mobile-menu li a{
+    padding: 0 .5em;
+}
+
 .mobile-social-media {
     text-align: right;
+}
+.mobile-social-media li a{
+    padding: 0 .5em;
 }
 
 @media(min-width:601px) {
