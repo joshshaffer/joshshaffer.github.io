@@ -262,7 +262,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
   position: relative;
 }
 
@@ -280,12 +280,31 @@
   position: absolute;
   color: white;
   padding: 1em;
-  bottom: -41px;
-  right: 2px;
-  -webkit-transform: rotate(-1deg);
-          transform: rotate(-1deg);
-  font-weight: 200;
-  display: none;
+  top: 98%;
+  right: -17px;
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.02), 0 12.5px 10px rgba(0, 0, 0, 0.02), 0 3.3px 17.9px rgba(0, 0, 0, 0.02), 0 10px 13.4px rgba(0, 0, 0, 0.02), 0 13px 15px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.02), 0 12.5px 10px rgba(0, 0, 0, 0.02), 0 3.3px 17.9px rgba(0, 0, 0, 0.02), 0 10px 13.4px rgba(0, 0, 0, 0.02), 0 13px 15px rgba(0, 0, 0, 0.03);
+  max-width: 440px;
+  z-index: 99;
+}
+
+.wrapper .column2 ul li div span {
+  font-weight: 500;
+}
+
+.wrapper .column2 ul li div p {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+@media (max-width: 400px) {
+  .wrapper .column2 ul li div {
+    right: 0;
+  }
 }
 
 .wrapper .column2 ul li img {
