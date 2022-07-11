@@ -83,6 +83,11 @@ header {
     align-items: flex-end;
     padding-bottom: 160px;
 
+    @media(max-width:650px) {
+        align-items: center;
+        padding-top: 80px;
+    }
+
 
     >div {
         display: flex;
@@ -163,6 +168,10 @@ header {
             .half_column {
                 max-width: 600px;
                 margin-left: 20px;
+
+                @media(max-width:650px) {
+                    margin-left: 0;
+                }
 
                 >img {
                     width: auto;
