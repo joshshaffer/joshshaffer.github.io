@@ -141,6 +141,17 @@ header {
         max-width: 1000px;
         margin: 0 auto;
 
+        .vertical_photos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            >img{
+                max-width: 48%;
+                height: auto;
+            }
+        }
+
         .horizontal_work {
             display: flex;
             flex-direction: row;
