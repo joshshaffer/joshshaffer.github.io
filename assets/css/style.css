@@ -178,9 +178,27 @@ header ul .selected {
           align-items: center;
 }
 
+@media (max-width: 650px) {
+  .work .work_wrapper .vertical_photos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .work .work_wrapper .vertical_photos > img {
-  max-width: 48%;
+  width: 48%;
   height: auto;
+}
+
+@media (max-width: 650px) {
+  .work .work_wrapper .vertical_photos > img {
+    width: 100%;
+  }
+  .work .work_wrapper .vertical_photos > img:first-child {
+    margin-bottom: 80px;
+  }
 }
 
 .work .work_wrapper .horizontal_work {

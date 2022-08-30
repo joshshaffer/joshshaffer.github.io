@@ -146,9 +146,18 @@ header {
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            @media(max-width:650px) {
+                flex-direction: column;
+            }
             >img{
-                max-width: 48%;
+                width: 48%;
                 height: auto;
+                @media(max-width:650px) {
+                    width: 100%;
+                    &:first-child{
+                        margin-bottom: 80px;
+                    }
+                }
             }
         }
 
