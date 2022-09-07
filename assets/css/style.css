@@ -29,6 +29,7 @@ h1 {
   font-family: 'jost', sans-serif;
   font-size: 20px;
   font-weight: 300;
+  padding: .4em .6em 0 .6em;
 }
 
 h2 {
@@ -129,6 +130,9 @@ header ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-family: 'jost', sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -140,11 +144,18 @@ header ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
 header ul li {
   margin-right: 10px;
+}
+
+header ul li a {
+  padding: .4em .6em 0 .6em;
 }
 
 header ul li:last-child {
@@ -153,6 +164,7 @@ header ul li:last-child {
 
 header ul .selected {
   color: var(--grey);
+  padding: 0em .6em 0 .6em;
 }
 
 .work {
@@ -415,7 +427,6 @@ a {
   text-decoration: none;
   color: var(--black);
   position: relative;
-  padding: .4em .6em 0 .6em;
   border-radius: 15px 15px 0 0;
 }
 
