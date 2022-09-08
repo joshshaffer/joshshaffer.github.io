@@ -353,10 +353,6 @@ header ul .selected {
 }
 
 .divider {
-  width: 60px;
-  height: 3px;
-  background: -webkit-gradient(linear, left top, right top, from(orange), to(pink));
-  background: linear-gradient(to right, orange, pink);
   margin: 140px auto 160px auto;
 }
 
@@ -381,7 +377,7 @@ header ul .selected {
 }
 
 .margin_bottom_md {
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .text_right {
